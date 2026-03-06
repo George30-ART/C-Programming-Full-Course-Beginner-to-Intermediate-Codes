@@ -1,0 +1,17 @@
+#include <stdio.h>
+// This is a comment
+int main()
+{
+    //this is int , 10 25 100
+    int age = 20;
+    //this is float , 3.14  1.75  0.5
+    float height = 1.75;
+    //this is char , 'A' 'B' 'C'
+    char grade = 'A';
+
+    printf("Age: %d\n", age);
+    printf("Height: %f\n", height);
+    printf("Grade: %c\n", grade);
+
+    return 0;
+}
